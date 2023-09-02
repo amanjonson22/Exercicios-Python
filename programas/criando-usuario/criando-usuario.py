@@ -42,7 +42,7 @@ def main():
     print('Olá, seja bem-vindo! O que você deseja?\n')
     decisao = 0
     while decisao != 'sair':
-        decisao = input('- Criar conta(criar)\n\n - Login(login)\n\n - Sair(sair)\n')
+        decisao = input('- Criar conta(criar)\n\n - Login(login)\n\n - Sair(sair)\n').lower()
         if decisao == 'criar':
             conta = criar_conta()
         elif decisao == 'login':

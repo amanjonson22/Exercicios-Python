@@ -5,16 +5,37 @@ def conversao_pm(hora24):
     return hora12
 
 def saida_conversao(hora24, minuto):
+    if minuto <= 9:
+        minuto = '0' + str(minuto)
+
     if hora24 < 12:
         hora12 = hora24
+        hora12 = '0' + str(hora12)
         print(f'A hora é {hora12}:{minuto} A.M.')
         return
-    elif hora24 >= 12:
-        hora12 = conversao_pm(hora24)
+    
+    elif hora24 == 12:
+        hora12 = hora24
         print(f'A hora é {hora12}:{minuto} P.M.')
         return
+    
+    elif hora24 == 24:
+        hora12 = 0
+        print(f'A hora é {hora12}:{minuto} A.M.')
+        return
+    
+    elif hora24 > 12 or hora24 < 24:
+        hora12 = conversao_pm(hora24)
+        
+        if hora12 <= 10:
+            hora12 = '0' + str(hora12)
+        
+        print(f'A hora é {hora12}:{minuto} P.M.')
+        return
+    
     else:
         print('Erro')
+        return
 
 while True:
     menu = input('''
@@ -26,7 +47,7 @@ BEM-VINDO À CONVERSÃO DE HORA PARA A.M. E P.M.
 => ''')
     if menu == 'c':
         hora24 = int(input('Quantas horas? '))
-        if hora24 >= 24 or hora24 <= 0:
+        if hora24 > 24 or hora24 <= 0:
             print('Erro, a hora é maior que 24.')
         else:
             minuto = int(input('Quantos minutos? '))

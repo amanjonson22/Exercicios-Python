@@ -14,12 +14,12 @@ Bem-vindo! Que operação deseja realizar?
 => '''
     return input(menu)
 
-def saque(*, limite_saques, numero_saques, saldo, extrato, limite, valor_saque):
+def saque(*, limite_saques, numero_saques, saldo, extrato_str, limite, valor_saque):
     if numero_saques < limite_saques:
         if valor_saque <= limite and valor_saque <= saldo and valor_saque > 0: 
             numero_saques += 1
             saldo -= valor_saque
-            extrato = extrato + 'Saque: R$ ' + str(valor_saque) + '\n'
+            extrato_str = extrato_str + 'Saque: R$ ' + str(valor_saque) + '\n'
             print(f'Saque de R$ {valor_saque:.2f} efetuado com sucesso')
             
         else:
@@ -33,22 +33,22 @@ def saque(*, limite_saques, numero_saques, saldo, extrato, limite, valor_saque):
     else:
         print('Seu limite de saques já foi atingido.')
 
-    return saldo, extrato
+    return saldo, extrato_str
 
-def depositar(saldo, valor_depósito, extrato, /):   
+def depositar(saldo, valor_depósito, extrato_str, /):   
     if valor_depósito <= 0:   
         print('O valor informado é inválido.') 
         
     else:
         saldo += valor_depósito
-        extrato = extrato + 'Depósito: R$ ' + str(valor_depósito) + '\n'
+        extrato_str = extrato_str + 'Depósito: R$ ' + str(valor_depósito) + '\n'
         print(f'Depósito de R$ {valor_depósito:.2f} efetuado com sucesso')
     
-    return saldo, extrato
+    return saldo, extrato_str
 
-def extrato(saldo,/,*, extrato):    
+def extrato(saldo,/,*, extrato_str):    
     print('\n==================== Extrato ====================\n')        
-    print('Não foram realizadas movimentações.' if not extrato else extrato)
+    print('Não foram realizadas movimentações.' if not extrato_str else extrato_str)
     print(f'\nSeu saldo atual é: R$ {saldo}')
     print('\n =================================================')
 
@@ -98,7 +98,7 @@ def main():
 
     saldo = 0
     limite = 500
-    extrato = ''
+    extrato_str = ''
     numero_saques = 0
     usuarios = []
     contas = []
@@ -111,23 +111,23 @@ def main():
             print('\nDepósito\n')
             valor_depósito = float(input('Valor do depósito: '))
         
-            saldo, extrato = depositar(saldo, valor_depósito, extrato)
+            saldo, extrato_str = depositar(saldo, valor_depósito, extrato_str)
 
         elif opcao == '2':
             print('\nSaque\n')
             
             valor_saque = float(input('Valor do saque: '))
-            saldo, extrato = saque(
+            saldo, extrato_str = saque(
                 saldo= saldo,
                 valor_saque= valor_saque,
-                extrato= extrato,
+                extrato_str= extrato_str,
                 limite= limite,
                 limite_saques= LIMITE_SAQUES,
                 numero_saques= numero_saques
             )   
 
         elif opcao == '3':
-            extrato(saldo, extrato=extrato)
+            extrato(saldo, extrato_str= extrato_str)
         
         elif opcao == '4':
             criar_usuario(usuarios)

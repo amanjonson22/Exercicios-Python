@@ -4,7 +4,7 @@ class Bicicleta:
         self.cor = cor #atributo
         self.modelo = modelo #atributo
         self.ano = ano #atributo
-        self.valor = valor #atributo
+        self.valor = valor #atributo 
 
     def buzinar(self): #método
         print('Bi biii')
@@ -12,8 +12,11 @@ class Bicicleta:
     def parar(self): #método
         print('Parada')
     
-    def correr(self): #método
+    def correr(self): #método, obrigatoriamente precisa de 1 argumento.
         print('Correndo!')
+
+    def __str__(self):
+        return f"{self.__class__.__name__}: {', '.join([f'{chave} = {valor}' for chave, valor in self.__dict__.items()])}"
     
 cor_vendida = input('Cor: ')
 modelo_vendido = input('Modelo: ')
@@ -30,3 +33,5 @@ print(f'A cor da bicicleta é: {bicleta_vendida.cor}')
 print(f'O modelo da bicicleta é: {bicleta_vendida.modelo}')
 print(f'O ano da venda é: {bicleta_vendida.ano}')
 print(f'O valor que foi vendido é: R${bicleta_vendida.valor:.2f}')
+
+print(bicleta_vendida)

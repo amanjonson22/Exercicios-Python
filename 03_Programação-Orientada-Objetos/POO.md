@@ -7,7 +7,7 @@ A Programação Orientada a Objetos é um tipo de paradigma de programação que
 Os temas estudados foram:
 
 - [Estudo de Classes]()
-- [Herança]()
+- [Herança](02_herança/heranças.md)
 - [Encapsulamento]()
-- [Polimorfismo](04_polimorfismo\polimorfismo.md)
-- [Ampliando o conhecimento](05_ampliando-conhecimento\ampliando-conhecimento.md)
+- [Polimorfismo](04_polimorfismo/polimorfismo.md)
+- [Ampliando o conhecimento](05_ampliando-conhecimento/ampliando-conhecimento.md)

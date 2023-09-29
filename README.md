@@ -13,7 +13,7 @@ Esse repositório tem a função de mostrar meu estudo de Python de acordo com o
 
 Os resumos realizados com Python são:
 
-- [Fundamentos de Python](01_Fundamentos-Python)
+- [Fundamentos de Python](01_Fundamentos-Python\Fundamentos.md)
 - [Estrutura de Dados](02_Estrutura-de-Dados)
 - [Programação Orientada a Objetos](03_Programação-Orientada-Ojetos)
 

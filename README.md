@@ -15,7 +15,7 @@ Os resumos realizados com Python são:
 
 - [Fundamentos de Python](01_Fundamentos-Python\Fundamentos.md)
 - [Estrutura de Dados](02_Estrutura-de-Dados)
-- [Programação Orientada a Objetos](03_Programação-Orientada-Ojetos)
+- [Programação Orientada a Objetos](03_Programação-Orientada-Objetos\POO.md)
 
 ## 💻 Programas
 Um pouco dos programas feitos por mim utilizando o conhecimento que obtive:

@@ -15,7 +15,7 @@
 
  Quando define o método de classe, o argumento aponta para classe. 
 
- *Convenção de nome:* cls
+ *Convenção de nome:* `cls`
 
  ### Métodos Estáticos
 
@@ -40,5 +40,12 @@
  |Geralmente para criar métodos de fábrica| Geralmente para criar funções utilitárias|
 
  *Métodos de fábrica:* são métodos que retornam instâncias daquela classe. Retorna uma nova instância, um novo objeto.
+
+ *Funções utilitárias:* Funções dentro da classe. Por exemplo: uma função que valide se a classe Pessoa é maior de idade.
+
+ ## Prática
+
+ O código utilizado para a prática desse estudo foi:
+ - [01_metodos-classe-estatica](01_metodos-classe-estatica.py)
 
  

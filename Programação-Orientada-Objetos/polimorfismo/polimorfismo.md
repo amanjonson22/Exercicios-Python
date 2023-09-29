@@ -56,6 +56,6 @@ plano_de_voo(Avestruz())
 ``` 
 Ou seja, quando passa `Pardal()`, irá mostar: `Pardal voa`. Quando passa `Avestruz()`, irá mostrar: `Avestruz não voa`.
 
-- [Prática do código](\01_polimorfismo.py)
+- [Prática do código](01_polimorfismo.py)
 
 Todo objeto que for aplicar o polimorfismo, precisa do método em todas as classes filhas, porém com resultados diferentes. No caso dos pássaros, todas as aves tinham o método `voar`, porém, tinham resultados diferentes.

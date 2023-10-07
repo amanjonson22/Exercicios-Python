@@ -68,7 +68,6 @@ class Casa:
     def __str__(self):
         return f"{self.__class__.__name__}: \nCor da parede: {self.cor_parede}\nQuantidade de quartos {self.numero_quartos}\nQuantidade de vagas: {self.quantidade_vagas}\nQuantidade de banheiros: {self.numero_banheiros}\nAltura do pé direito: {self.altura_teto}\nTem jardim: {self.jardim}\nProprietário: {self.proprietario}\nEndereço: {self.endereco}\nAlugada? {self.alugada}\nInquilino: {self.inquilino}\nValor do aluguel: {self.valor_aluguel}"
 
-
 def menu():
     escolha = input("""       
 [1] Vender

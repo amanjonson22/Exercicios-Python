@@ -21,4 +21,6 @@ Quando a classe for instanciada, as características são mutáveis, mas elas ai
 
 Códigos da aula:
 
-- [Conceito de Classe e Objeto](/03_Programação-Orientada-Objetos/01_estudo-classes/conceito-classe-objeto.py)
+- [Exercicio da aula](/03_Programação-Orientada-Objetos/01_estudo-classes/conceito-classe-objeto.py)
+- [Primeiro programa usando POO](/03_Programação-Orientada-Objetos/01_estudo-classes/exercicio/bicicletaria.py)
+- [Estudo utilizando o exemplo da planta da casa](/03_Programação-Orientada-Objetos/01_estudo-classes/exercicio/exercicio-casa.py)

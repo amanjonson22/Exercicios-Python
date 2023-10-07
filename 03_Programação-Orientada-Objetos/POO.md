@@ -27,7 +27,7 @@ Então, o paradigma é um dos paradigmas mais utilizados pois tem a capacidade d
 
 Os temas estudados foram:
 
-- [Estudo de Classes]()
+- [Estudo de Classes](/03_Programação-Orientada-Objetos/01_estudo-classes/estudo-de-classes.md)
 - [Herança](02_herança/heranças.md)
 - [Encapsulamento]()
 - [Polimorfismo](04_polimorfismo/polimorfismo.md)

@@ -9,6 +9,10 @@ Esse repositório tem a função de mostrar meu estudo de Python de acordo com o
 - Tratamento de Dados com Python
 - Prática de Desenvolvimento Web com Python
 
+## 📖 Documentação de Python
+
+A principal documentação atualizada (07/10/2023) se encontra [aqui](https://docs.python.org/release/3.12.0/library/index.html).
+
 ## 📚 Resumos
 
 Os resumos realizados com Python são:

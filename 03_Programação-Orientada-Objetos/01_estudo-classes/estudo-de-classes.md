@@ -17,6 +17,8 @@ Em uma construção de uma casa, é preciso ter uma planta antes de conseguir co
 A planta da casa, neste exemplo, é a classe e, as características (cor da parede, altura do pé direito, número de quartos) são as características da classe.
 Quando a classe for instanciada, as características são mutáveis, mas elas ainda estão lá. 
 
+- [Código de Exemplo](/03_Programação-Orientada-Objetos/01_estudo-classes/exercicio/exercicio-casa.py)
+
 ## Construtores e Destrutores
 
 Os contrutores são aqueles que iniciam a classe, é o método que irá fornecer as características para a classe.
@@ -28,4 +30,3 @@ Códigos da aula:
 
 - [Exercicio da aula](/03_Programação-Orientada-Objetos/01_estudo-classes/conceito-classe-objeto.py)
 - [Primeiro programa usando POO](/03_Programação-Orientada-Objetos/01_estudo-classes/exercicio/bicicletaria.py)
-- [Estudo utilizando o exemplo da planta da casa](/03_Programação-Orientada-Objetos/01_estudo-classes/exercicio/exercicio-casa.py)

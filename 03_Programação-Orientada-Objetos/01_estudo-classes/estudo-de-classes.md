@@ -17,6 +17,11 @@ Em uma construção de uma casa, é preciso ter uma planta antes de conseguir co
 A planta da casa, neste exemplo, é a classe e, as características (cor da parede, altura do pé direito, número de quartos) são as características da classe.
 Quando a classe for instanciada, as características são mutáveis, mas elas ainda estão lá. 
 
+## Construtores e Destrutores
+
+Os contrutores são aqueles que iniciam a classe, é o método que irá fornecer as características para a classe.
+Os destrutores destroem a instância que utiliza aquela classe.
+
 ## Exercício da aula
 
 Códigos da aula:

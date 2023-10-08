@@ -10,7 +10,11 @@ Herança é a capacidade de uma classe filha herdar ou derivar características 
 
 *Se usar errado, não vai ser funcional.
 
-### Exemplo:
+## Herança Simples
+
+## Herança Múltipla
+
+### Exemplo de Herança Simples:
 
 Um pai tem um filho, o filho irá herdar cor de pele, DNA, doenças, olhos.
 Ou também irá herdar bens, dívidas, dinheiro.

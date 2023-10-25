@@ -14,8 +14,8 @@ for i in range(menu):
 
 print('\nCalculando seu total...\n')
 
-for i in range(len(precos)):
-    total += precos[i]
+for i in precos:
+    total += i
 
 for i in range(len(itens)):
     print(itens[i] + ':', precos[i])

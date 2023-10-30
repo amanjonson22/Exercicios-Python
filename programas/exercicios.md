@@ -6,9 +6,13 @@ The exercises below were taken from the website [WikiPython](https://wiki.python
 
 ## Exercícios de Função | Function Exercises
 
-Eu darei uma pequena explicação dos códigos que eu acredito serem os mais interessantes. Se você quiser saber mais e ver o resto dos códigos, você consegue encontrá-los [aqui](/programas/exercicios-funcoes/).
+Eu darei uma pequena explicação dos códigos que eu acredito serem os mais interessantes. Se você quiser saber mais e ver o resto dos códigos, você consegue encontrá-los [aqui](/programas/exercicios-funcoes/). 
+
+*Obs.: Alguns dos códigos presentes na pasta foram realizados durante o curso da Cisco de Python.* 
 
 I will give a brief explanation of the codes I find the most interesting. If you want to know more and see the rest of the codes, you can find it [here](/programas/exercicios-funcoes/).
+
+*Obs.: Some of the codes on the folder were made during a Python's course with Cisco.*
 
 - [exercicio3.py](/programas/exercicios-funcoes/exercicio3.py): O programa irá imprimir de 1 a n em uma escada de acordo com a quantidade informada pelo usuário. Exemplo: | The program will print from 1 to n in the format of a ladder with the amount informed by the user. Example:
 
